@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.display {
+    display: flex;
+}
+
+.insert {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.box1 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    background-color: chocolate;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 1px rgb(235, 103, 9);
+    border-radius: 15px;
+}
+
+.box2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    background-color: rgb(255, 10, 214);
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 1px rgb(221, 31, 31);
+    border-radius: 15px;
+
+}
+
+.box3 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    background-color: rgb(15, 218, 174);
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 1px rgb(0, 255, 179);
+    border-radius: 15px;
+
+}
+
+.withdraw_box,
+.insert_box {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    border: 1px solid antiquewhite;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 1px rgb(0, 0, 0);
+    /* align-items: center; */
+    justify-content: space-evenly;
+
+}
+
+#add,
+#withdraw {
+    /* margin: 10px; */
+    border: none;
+    border-bottom: 1px solid black;
+    /* text-align: center; */
+}
+
+#add_amount,
+#withdraw_amount {
+    width: max-content;
+}
+
+#add_amount:focus,
+#withdraw_amount:focus {
+    outline: none;
+    /* place-content: none; */
+    /* font-size: larger; */
+
+}
+
+button {
+    padding: 5px 5px;
+    width: fit-content;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 15px;
+    /* box-shadow: 0px 0px 5px 1px rgb(0, 0, 0); */
+}

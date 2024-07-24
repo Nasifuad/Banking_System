@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Deposite Page</title>
+        <link rel="stylesheet" href="Deposit.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="display">
+                <div class="box1">
+                    <p>Amount Credited</p>
+                    <p>
+                        $
+                        <span id="credit_amount">100</span>
+                    </p>
+                </div>
+                <div class="box2">
+                    <p>Ammount Withdraw</p>
+                    <p>
+                        $
+                        <span id="debit_amount">00</span>
+                    </p>
+                </div>
+                <div class="box3">
+                    <p>Account Balance</p>
+                    <p>
+                        $
+                        <span id="total_amount">13000</span>
+                    </p>
+                </div>
+            </div>
+            <div class="insert">
+                <div class="insert_box">
+                    <p>Amount Credited</p>
+                    <input type="text" id="add_amount" placeholder=" $$ Enter Amount">
+                    <button id="add_money">Add</button>
+                </div>
+                <div class="withdraw_box">
+                    <p>Ammount Withdraw</p>
+                    <input type="text" id="withdraw_amount" placeholder="Enter Amount">
+                    <button id="withdraw_money">Withdraw</button>
+                </div>
+            </div>
+        </div>
+        <script src="Deposit.js"></script>
+    </body>
+</html>
